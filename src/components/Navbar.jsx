@@ -4,7 +4,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 
 function Navbar() {
 
-  const [dropdown, setDropdown] = useState(true);
+  const [dropdown, setDropdown] = useState(false);
 
   const showDropdown = () => {
 

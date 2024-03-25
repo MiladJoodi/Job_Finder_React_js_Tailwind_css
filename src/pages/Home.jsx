@@ -1,7 +1,13 @@
+import Hero from "../components/Hero"
+import Navbar from "../components/Navbar"
 
 function Home() {
   return (
-    <div className="bg-blue-300">Home</div>
+
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
   )
 }
 
