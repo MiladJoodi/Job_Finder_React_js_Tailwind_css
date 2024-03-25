@@ -13,19 +13,19 @@ function Navbar() {
 
   return (
     <nav className="w-full h-24 flex flex-col justify-center items-center">
-      <div className="container mx-auto lg:px-6 ">
+      <div className="container mx-auto lg:px-6">
         <div className="lg:w-full w-11/12 mx-auto h-full flex justify-between items-center">
 
-          <div className="flex flex-col gap-y-4">
-            <div className="flex items-center gap-x-2">
-              <span className="flex items-center lg:text-5xl text-3xl">
+          <div className="flex flex-col gap-y-4 ">
+            <div className="flex items-center">
+              <span className="flex items-center gap-x-2 lg:text-5xl text-3xl">
                 <button className="rounded-full py-1 text-white bg-indigo-600 lg:text-5xl text-3xl outline-none border-none">Jo</button>
                 <p className="font-semibold leading-tight">bline</p>
               </span>
             </div>
           </div>
 
-          <ul className="flex-1 flex justify-center items-center xl:gap-12 gap-x-4 max-lg:hidden">
+          <ul className=" flex-1 flex justify-center items-center xl:gap-12 gap-x-4 max-lg:hidden">
             <a href="#" className="leading-normal no-underline font-bold text-lg hover:text-indigo-600">Find jobs</a>
             <a href="#" className="leading-normal no-underline font-bold text-lg hover:text-indigo-600">People</a>
             <a href="#" className="leading-normal no-underline font-bold text-lg hover:text-indigo-600">Hiring</a>
@@ -33,16 +33,16 @@ function Navbar() {
           </ul>
 
           <div className="flex gap-4 max-lg:hidden">
-            <button className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 hoverBtn">Sign up</button>
-            <button className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 hoverBtn">Sign In</button>
+            <button className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 py-3 hoverBtn">Sign up</button>
+            <button className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 py-3 hoverBtn">Sign In</button>
           </div>
 
           {dropdown ? (
-            <div onClick={showDropdown} className="lg:hidden text-[22px] cursor-pointer text-black">
+            <div onClick={()=>setDropdown(!dropdown)} className="lg:hidden text-[22px] cursor-pointer text-black">
               <MdClose />
             </div>
           ) : (
-            <div onClick={showDropdown}>
+            <div onClick={()=>setDropdown(!dropdown)} className="lg:hidden text-[22px] cursor-pointer text-black">
               <HiMenuAlt3 />
             </div>
           )}
