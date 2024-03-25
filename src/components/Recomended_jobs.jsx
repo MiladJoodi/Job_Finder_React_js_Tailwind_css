@@ -67,9 +67,18 @@ function Recomended_jobs() {
                             ))}
                         </div>
                     </div>
-                </div>
 
-                <div>
+                    <div>
+                    <Recommended
+                    amount="3000-4000"
+                    bgColor="#f4f4ff"
+                    color= "#4b4efc"
+                    country= "Germany"
+                    job= "Construction"
+                    time="4"
+                    title= "Project Manager"
+                    type='Temporary'
+                    />
                     <Recommended
                     amount="3000-4000"
                     bgColor="#f4f4ff"
@@ -81,6 +90,10 @@ function Recomended_jobs() {
                     type='Temporary'
                     />
                 </div>
+                
+                </div>
+
+                
 
             </div>
         </div>

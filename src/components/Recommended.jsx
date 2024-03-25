@@ -33,7 +33,7 @@ function Recommended({time, type, title, amount, country, job, bgColor, color}) 
                     <IoLocationOutline className='text-2xl' style={{color: `${color}`}} />
                     <p className='text-xl font-light'>{country}</p>
                 </span>
-                <span>
+                <span className='flex items-center gap-x-3'>
                     <LiaDotCircle className='text-2xl' style={{color: `${color}`}} />
                     <p className='text-xl font-light'>{job}</p>
                 </span>
