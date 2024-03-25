@@ -1,5 +1,6 @@
 import React from 'react'
 import Categories from './Categories'
+import Recommended from './Recommended'
 
 const data = [
     {
@@ -69,7 +70,16 @@ function Recomended_jobs() {
                 </div>
 
                 <div>
-                    ss
+                    <Recommended
+                    amount="3000-4000"
+                    bgColor="#f4f4ff"
+                    color= "#4b4efc"
+                    country= "Germany"
+                    job= "Construction"
+                    time="4"
+                    title= "Project Manager"
+                    type='Temporary'
+                    />
                 </div>
 
             </div>
