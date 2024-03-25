@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.hoverBtn{
+    transition: all 0.4s ease 0s !important;
+    cursor: pointer;
+}
+.hoverBtn:hover{
+    transform: scale(1.05);
+    overflow: hidden !important;
+}
