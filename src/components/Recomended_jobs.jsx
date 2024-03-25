@@ -65,35 +65,81 @@ function Recomended_jobs() {
                             {data.map((cat, index) => (
                                 <Categories key={index} image={cat.image} opening={cat.opening} title={cat.title} />
                             ))}
+                            {data.map((cat, index) => (
+                                <Categories key={index} image={cat.image} opening={cat.opening} title={cat.title} />
+                            ))}
+                            {data.map((cat, index) => (
+                                <Categories key={index} image={cat.image} opening={cat.opening} title={cat.title} />
+                            ))}
                         </div>
                     </div>
 
-                    <div>
-                    <Recommended
-                    amount="3000-4000"
-                    bgColor="#f4f4ff"
-                    color= "#4b4efc"
-                    country= "Germany"
-                    job= "Construction"
-                    time="4"
-                    title= "Project Manager"
-                    type='Temporary'
-                    />
-                    <Recommended
-                    amount="3000-4000"
-                    bgColor="#f4f4ff"
-                    color= "#4b4efc"
-                    country= "Germany"
-                    job= "Construction"
-                    time="4"
-                    title= "Project Manager"
-                    type='Temporary'
-                    />
-                </div>
-                
+                    <div className='xl:w-3/5 flex flex-col gap-y-3 xl:mt-0 mt-4'>
+                        <Recommended
+                            amount="3000-4000"
+                            bgColor="#f4f4ff"
+                            color="#4b4efc"
+                            country="Germany"
+                            job="Construction"
+                            time="4"
+                            title="Project Manager"
+                            type='Temporary'
+                        />
+                        <Recommended
+                            amount="3000-4000"
+                            bgColor="#fbf2f6"
+                            color="#b70041"
+                            country="USA"
+                            job="Construction"
+                            time="4"
+                            title="UI / UX Designer"
+                            type='Temporary'
+                        />
+                        <Recommended
+                            amount="3500-4000"
+                            bgColor="#f4f4ff"
+                            color="#4b4efc"
+                            country="Netherlands"
+                            job="Construction"
+                            time="4"
+                            title="Seo Manager"
+                            type='Temporary'
+                        />
+                        <Recommended
+                            amount="2500-4500"
+                            bgColor="#fffbf2"
+                            color="#ffb800"
+                            country="Sweden"
+                            job="Construction"
+                            time="4"
+                            title="Front End"
+                            type='Temporary'
+                        />
+                        <Recommended
+                            amount="1000-2500"
+                            bgColor="#f4f4ff"
+                            color="#4b4efc"
+                            country="USA"
+                            job="Construction"
+                            time="4"
+                            title="Django Developer"
+                            type='Temporary'
+                        />
+                        <Recommended
+                            amount="2000-4000"
+                            bgColor="#f4f4ff"
+                            color="#4b4efc"
+                            country="Greece"
+                            job="Construction"
+                            time="4"
+                            title="Python"
+                            type='Temporary'
+                        />
+                    </div>
+
                 </div>
 
-                
+
 
             </div>
         </div>
