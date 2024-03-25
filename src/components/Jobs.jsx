@@ -16,7 +16,7 @@ function Jobs({ type, img, title, color, bg_color }) {
             <div className='rounded-b-md px-6 py-8' style={{backgroundColor: `${bg_color}`}}>
                 <p className='text-2xl font-semibold'>{title}</p>
                 <p className='py-2 text-lg'>803 46th St Broolyn, NY</p>
-                <div className='pb-4'>
+                <div className='pb-4 flex'>
                     {[...Array(5)].map((_, index)=> (
                         <HiStar key={index} className='text-[#ffcc02] text-2xl' />
                     ))}

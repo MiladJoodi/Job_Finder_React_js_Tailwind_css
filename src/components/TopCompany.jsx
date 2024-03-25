@@ -57,17 +57,31 @@ function TopCompany() {
                             type="Internship"
                         />
                         <Jobs
-                            bg_color="#f4f4ff"
-                            color="#4b4efc"
+                            bg_color="#fffbf2"
+                            color="#fec220"
                             img="/google.png"
-                            title="Product Design"
+                            title="Front End Developer"
                             type="Internship"
+                        />
+                        <Jobs
+                            bg_color="#e8f3ea"
+                            color="#349c30"
+                            img="/spot.png"
+                            title="Product Design"
+                            type="Hybrid"
+                        />
+                        <Jobs
+                            bg_color="#f4f4ff"
+                            color="#c72b66"
+                            img="/lg.png"
+                            title="Web Maintenance"
+                            type="Remote"
                         />
                         <Jobs
                             bg_color="#f4f4ff"
                             color="#4b4efc"
-                            img="/amazon.png"
-                            title="Product Design"
+                            img="/facebook.png"
+                            title="Scrum Master"
                             type="Internship"
                         />
                         <Jobs
@@ -75,7 +89,7 @@ function TopCompany() {
                             color="#4b4efc"
                             img="/lg.png"
                             title="Product Design"
-                            type="Internship"
+                            type="Onsite"
                         />
 
                     </Carousel>

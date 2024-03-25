@@ -18,7 +18,7 @@ function Navbar() {
 
           <div className="flex flex-col gap-y-4 ">
             <div className="flex items-center">
-              <span className="flex items-center gap-x-2 lg:text-5xl text-3xl">
+              <span className="flex items-center lg:text-5xl text-3xl">
                 <button className="rounded-full py-1 text-white bg-indigo-600 lg:text-5xl text-3xl outline-none border-none">Jo</button>
                 <p className="font-semibold leading-tight">bline</p>
               </span>
