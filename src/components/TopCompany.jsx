@@ -24,16 +24,18 @@ const responsive = {
 
 function TopCompany() {
     return (
-        <div>
-            <div>
-                <div>
-                    <h2>Top Company Registered</h2>
-                    <span>
-                        <button>Browse Jobs</button>
-                        <button>See All Companies</button>
+        <div className="bg-[#fafbfc]">
+            <div className="container mx-auto px-6 py-24">
+                <div className="md:flex items-center justify-between">
+                    <h2 className="xl:text-5xl ls:text-3xl font-semibold">
+                        Top Company Registered
+                    </h2>
+                    <span className="md:flex gap-x-4">
+                        <button className="rounded-full md:my-0 my-4 bg-indigo-700 text-lg text-white font-bold px-8 py-3 outline-none border-none hoverBtn">Browse Jobs</button>
+                        <button className="rounded-full bg-transparent border border-solid border-[#e2e4e7] text-lg text-black font-bold px-8 py-3 outline-none shadow">See All Companies</button>
                     </span>
                 </div>
-                <p>Know your worth and find the job that qualify your life</p>
+                <p className="text-2xl mt-4 font-light">Know your worth and find the job that qualify your life</p>
                 <div>
                     <Carousel
                         swipeable={false}
@@ -47,7 +49,35 @@ function TopCompany() {
                         customTransition="all .5"
                         transitionDuration={500}
                     >
-                        <Jobs />
+                        <Jobs
+                            bg_color="#f4f4ff"
+                            color="#4b4efc"
+                            img="/google.png"
+                            title="Product Design"
+                            type="Internship"
+                        />
+                        <Jobs
+                            bg_color="#f4f4ff"
+                            color="#4b4efc"
+                            img="/google.png"
+                            title="Product Design"
+                            type="Internship"
+                        />
+                        <Jobs
+                            bg_color="#f4f4ff"
+                            color="#4b4efc"
+                            img="/amazon.png"
+                            title="Product Design"
+                            type="Internship"
+                        />
+                        <Jobs
+                            bg_color="#f4f4ff"
+                            color="#4b4efc"
+                            img="/google.png"
+                            title="Product Design"
+                            type="Internship"
+                        />
+
                     </Carousel>
                 </div>
             </div>

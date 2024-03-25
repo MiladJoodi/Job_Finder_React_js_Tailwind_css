@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiOutlineHeart } from 'react-icons/hi'
+import { HiOutlineHeart, HiStar } from 'react-icons/hi'
 
 function Jobs({ type, img, title, color, bg_color }) {
     return (
@@ -16,10 +16,14 @@ function Jobs({ type, img, title, color, bg_color }) {
             <div className='rounded-b-md px-6 py-8' style={{backgroundColor: `${bg_color}`}}>
                 <p className='text-2xl font-semibold'>{title}</p>
                 <p className='py-2 text-lg'>803 46th St Broolyn, NY</p>
-                <div className='pb-4'></div>
-                <div className='p-2 border border-solid border-[#e2e4e7]'>
+                <div className='pb-4'>
+                    {[...Array(5)].map((_, index)=> (
+                        <HiStar key={index} className='text-[#ffcc02] text-2xl' />
+                    ))}
+                </div>
+                <div className='p-2 border border-solid border-[#e2e4e7] rounded-md flex justify-between text-sm'>
                     <p>Salary</p>
-                    <p>Rs. 3,457.000</p>
+                    <p style={{color: `${color}`}}>Rs. 3,457.000</p>
                 </div>
             </div>
         </div>
