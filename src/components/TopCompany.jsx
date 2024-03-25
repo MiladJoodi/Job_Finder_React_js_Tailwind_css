@@ -73,7 +73,7 @@ function TopCompany() {
                         <Jobs
                             bg_color="#f4f4ff"
                             color="#4b4efc"
-                            img="/google.png"
+                            img="/lg.png"
                             title="Product Design"
                             type="Internship"
                         />
