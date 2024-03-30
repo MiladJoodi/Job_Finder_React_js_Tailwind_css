@@ -1,6 +1,6 @@
 # Job Finder UI
 
-<h4>Fully Responsive Job Finder UI using Next.js, Tailwind css 👌</h4>  
+<h4>A Job Finder User Interface that is fully responsive, developed with Next.js and Tailwind CSS. 👌</h4>  
 
 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
@@ -35,10 +35,8 @@
 
   \
   <br />
-This project is a fully responsive Job Finder app. \
-I used React.js, Vite, Tailwind css and React Icons.
-Now you can is [Demo](https://job-finder-react-js-tailwind-css.vercel.app/)\
-Thank you very much. 🙏
+This project entails a completely responsive Job Finder application. It was developed using React.js, Vite, Tailwind CSS, and React Icons. You can now access the [Demo](https://job-finder-react-js-tailwind-css.vercel.app/).\
+Thank you sincerely. 🙏
 
 ![](https://s30.picofile.com/file/8473944634/01.jpg)
 
