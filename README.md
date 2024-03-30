@@ -1,4 +1,4 @@
-# Job Finder
+# Job Finder UI
 
 <h4>Fully Responsive Job Finder UI using Next.js, Tailwind css 👌</h4>  
 
