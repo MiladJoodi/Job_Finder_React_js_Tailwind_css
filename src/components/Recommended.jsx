@@ -27,7 +27,7 @@ function Recommended({time, type, title, amount, country, job, bgColor, color}) 
 
         </div>
 
-        <div className='py-8 px-6 flex-1 md:flex justify-between rounded-b-[10px] border border-solid border-[#e2e4e7]' style={{backgroundColor: `${bgColor}`}}>
+        <div className='py-6 px-6 flex-1 space-y-4 md:flex justify-between rounded-b-[10px] border border-solid border-[#e2e4e7]' style={{backgroundColor: `${bgColor}`}}>
             <div className='flex-1 md:flex items-center gap-x-8 text-2xl'>
                 <span className='flex items-center gap-x-3'>
                     <IoLocationOutline className='text-2xl' style={{color: `${color}`}} />

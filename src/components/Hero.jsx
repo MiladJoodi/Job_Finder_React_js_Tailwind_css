@@ -5,8 +5,8 @@ import { IoLocationOutline } from "react-icons/io5";
 
 function Hero() {
     return (
-        <div className='bg-[#fafbfc] pt-24'>
-            <div className='flex flex-col items-center justify-center min-h-[60vh] py-16 px-16'>
+        <div className='bg-[#fafbfc]'>
+            <div className='flex flex-col items-center justify-center min-h-[60vh] py-8 px-8'>
 
                 <h1 className='xl:text-7xl lx:text-5xl sm:text-3xl text-2xl lg:leading-normal font-bold text-center'>
                     Find your {" "}
@@ -27,8 +27,8 @@ function Hero() {
                         <HiSearch className='text-2xl' />
                     </button>
                     <button className='flex items-center bg-[#f3f3f4] absolute right-2 rounded-full lg:px-4 px-2 h-[90%] xl:text-xl text-sm font-normal gap-x-2 border-none'>
-                        <IoLocationOutline className='text-black lg:text-2xl' />
-                        Any location
+                        <IoLocationOutline className='text-black lg:text-2xl' size={25} />
+                        <span className='hidden md:block'>Any location</span>
                     </button>
                 </div>
 

@@ -49,7 +49,7 @@ function Navbar() {
         </div>
 
         {dropdown ? (
-          <div onClick={showDropdown} className="lg:hidden w-full h-screen fixed top-24 bg-black ease-in-out duration-100">
+          <div onClick={showDropdown} className="lg:hidden w-full h-screen fixed top-24 bg-black ease-in-out duration-100 z-10">
             <HiMenuAlt3 />
             <div className="w-full h-[320px] flex flex-col items-baseline pt-8 gap-4">
               <ul className="text-center p-0 flex flex-col justify-center w-full gap-y-8">

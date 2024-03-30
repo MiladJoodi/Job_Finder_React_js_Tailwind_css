@@ -42,7 +42,7 @@ const data = [
 function Recomended_jobs() {
     return (
         <div className='bg-[#f5f6fc]'>
-            <div className='container mx-auto px-6 py-24'>
+            <div className='container mx-auto px-6 md:py-24 py-6'>
 
                 <div className='md:flex items-center justify-between'>
                     <h2 className='xl:text-5xl lg:text-3xl text-2xl font-semibold'>
